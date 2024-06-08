@@ -1,0 +1,34 @@
+Title: ¿Cómo configurar un almacén?
+Producto y Módulo: ML.net CM; ML.net CM:Seguridad;
+Acceso:	Configuración ? Almacenes ? Almacenes
+Explicación de la pregunta:	
+     
+Para comenzar a utilizar el módulo de almacenes, se deben realizar una serie de configuraciones iniciales para crear y disponer de los almacenes correspondientes a la operatoria general del módulo:
+
+1.- Debe ingresar a configuración, luego seleccione almacenes:
+
+https://aisrl.sharepoint.com/sites/BasedeConocimiento/Documentos%20compartidos/Im%C3%A1genes%20de%20soporte%20BC%20CSC%20CM/configuracion-almacenes-almacen.png
+ 
+2.-Seguidamente presionando el botón "Nuevo": 
+
+ https://aisrl.sharepoint.com/sites/BasedeConocimiento/Documentos%20compartidos/Im%C3%A1genes%20de%20soporte%20BC%20CSC%20CM/C%C3%B3mo%20configurar%20un%20Almac%C3%A9n_01.png
+  
+3.-El servicio asociado, será el servicio creado en "Entidades/Servicio" destinado al uso de la Farmacia, puede ser Farmacia como en el ejemplo, o bien Enfermería, etc.
+
+https://aisrl.sharepoint.com/sites/BasedeConocimiento/Documentos%20compartidos/Im%C3%A1genes%20de%20soporte%20BC%20CSC%20CM/C%C3%B3mo%20configurar%20un%20Almac%C3%A9n_02.png
+
+4.-Una vez creado el Almacén, es necesario asignarle los usuarios que operarán con el mismo. De omitir este paso, el usuario que se loguee y no esté asignado al módulo, no podrá visualizar el stock de los almacenes.
+https://aisrl.sharepoint.com/sites/BasedeConocimiento/Documentos%20compartidos/Im%C3%A1genes%20de%20soporte%20BC%20CSC%20CM/C%C3%B3mo%20configurar%20un%20almac%C3%A9n_03.png
+
+Recursos relacionados	
+Items de conocimiento relacionados: ¿Cómo configurar los rubros que integran un almacén? ; ¿Cómo ingresar material en préstamo? ; ¿Cómo ingresar stock en un almacén? ; ¿Cómo parametrizar variables de stock? ; ¿Cómo importar movimientos de stock?
+
+Categoría: Configuración;
+Palabras clave: BC CSC CM	farmacia; almacén;
+Verificación técnica:	Sí
+Verificación de estilo:	Sí
+Estado	
+En progreso	
+Soporte	Externo
+Público	
+AudienceIds	
