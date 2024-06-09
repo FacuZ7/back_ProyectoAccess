@@ -26,7 +26,7 @@ const model = new ChatOpenAI({
 
 // Carga los documentos (Llevarlo a otro módulo)
 const loader = new DirectoryLoader(
-  "./src/data",
+  "data",
   {
     ".txt": (path) => new TextLoader(path),
   }
@@ -108,4 +108,4 @@ const historial = [
     new AIMessage("Hola Juan, ¿en qué puedo ayudarte?"),
 ];
 
-export { conversationChain, historial }
+export {conversationChain, historial}
