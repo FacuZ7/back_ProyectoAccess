@@ -1,5 +1,5 @@
-import { conversationChain } from "../../config/openaiConfig.js";
-import { historial } from "../../config/openaiConfig.js";
+import { conversationChain } from '../../config/aiConfig/index.js'
+import { historial } from '../../config/aiConfig/index.js'
 
 const generateAnswer = async (query)=> {
     
