@@ -2,8 +2,12 @@ import { createHistoryAwareRetriever } from "langchain/chains/history_aware_retr
 import { createStuffDocumentsChain } from "langchain/chains/combine_documents";
 import { createRetrievalChain } from "langchain/chains/retrieval";
 import { ChatPromptTemplate, MessagesPlaceholder } from "@langchain/core/prompts";
-import model from "./model.js";
+// import model from "./model.js";
+import { modelOpenAI, modelClaude }from "./model.js";
+
 import { createRetrieverPrompt, createSystemPrompt } from "./prompts.js";
+
+let model = modelOpenAI;
 
 export const createChains = async (retriever) => {
     const retrieverPrompt = createRetrieverPrompt();
